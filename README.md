@@ -19,12 +19,27 @@ You are expressly prohibited from deleting rows containing missing data. Instead
 • Where the Machine field is null and the operator is identified as "Vikram" — who is exclusively assigned to the Drill Press — the missing value shall be imputed as "DRILL_PRESS".
 • Where the Shift field is null and the operator is identified as "Rahul" — who works exclusively on the Night Shift — the missing value shall be imputed as "Night".
 
-Solution: For Details refer to 
+Solution: Below is the table showning the Log_Date columns from Raw_Data and Clean_Data
+| Raw_Data Operator | Raw_Data Shift | Raw_Data Machine | Clean_Data Operator | Clean_Data Shift | Clean_Data Machine |
+|-------------|-----------|-------------|----------------|-------------|---------------|
+| Vikram | Night | NA | Vikram | Night | DRILL_PRESS |
+| VIKRAM | Night | NA | Vikram | Night | DRILL_PRESS |
+| Rahul | NA | CNC_Lathe | Rahul | Night | CNC_LATHE |
+| Rahul | NA | Drill_Press | Rahul | Night | DRILL_PRESS |
+For Details refer to 
 
 Task 4 — Rectification of Logically Impossible Values
 Identify all records wherein the Downtime_Minutes value is less than zero. Such values are logically impossible and cannot be deduced from available contextual information. Replace these specific erroneous values with NA to accurately represent their unknown status.
 
-Solution: For details, refer to 
+Solution: Below is the table showning the Log_Date columns from Raw_Data and Clean_Data
+| Log_ID | Raw_Data Downtime_Minutes | Clean_Data Downtime_Minutes |
+|-----------|----------------------|------------------------|
+| 150 | -15 | NA |
+| 31 | -11 | NA |
+| 56 | -7 | NA |
+| 105 | 0 | 0 |
+| 130 | 3 | 3 |
+For details, refer to 
 
 Task 5 — Date Format Standardisation
 Load the lubridate package and apply the parse_date_time() function to coerce the Log_Date column into a single standardised format. The function must be configured to recognise and process all three date formats present in the raw data: YYYY-MM-DD, DD/MM/YYYY, and DD.MM.YYYY.
