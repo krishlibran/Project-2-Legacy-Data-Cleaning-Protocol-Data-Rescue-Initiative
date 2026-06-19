@@ -7,16 +7,22 @@ Solution: For Details refer to
 
 Task 2 — String Standardisation & Normalisation
 Utilising the mutate() function in conjunction with the stringr package, perform the following standardisation operations:
+
 • Apply str_trim() to excise all invisible whitespace from operator name fields.
+
 • Apply str_to_title() to enforce consistent title-case capitalisation across all operator names.
+
 • Convert all values in the Machine column to uppercase format.
+
 • Standardise non-uniform machine name variants such as CNC-LATHE and MILLING MACH into their approved canonical formats.
 
 Solution: For Details refer to
 
 Task 3 — Data Imputation via Contextual Inference
 You are expressly prohibited from deleting rows containing missing data. Instead, you shall employ mutate() combined with ifelse() to perform contextual imputation based upon the following established factory operational rules:
+
 • Where the Machine field is null and the operator is identified as "Vikram" — who is exclusively assigned to the Drill Press — the missing value shall be imputed as "DRILL_PRESS".
+
 • Where the Shift field is null and the operator is identified as "Rahul" — who works exclusively on the Night Shift — the missing value shall be imputed as "Night".
 
 Solution: Below is the table showning the Log_Date columns from Raw_Data and Clean_Data
