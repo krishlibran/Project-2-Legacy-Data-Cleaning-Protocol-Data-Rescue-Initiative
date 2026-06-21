@@ -60,7 +60,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | 8 | 2026-06-11 | 2026-06-11 |
 | 9 | 15/06/2026 | 2026-06-15 |
 
-For details, refer to [Assignment_2.R]
+For details, refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L26)
 
 Task 6 — Feature Engineering: Downtime Severity Classification
 Create a new derived column designated Downtime_Severity by applying the case_when() function in accordance with the following classification schema:
