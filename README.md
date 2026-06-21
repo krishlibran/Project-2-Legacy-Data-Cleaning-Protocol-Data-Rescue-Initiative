@@ -16,7 +16,7 @@ Utilising the mutate() function in conjunction with the stringr package, perform
 
 • Standardise non-uniform machine name variants such as CNC-LATHE and MILLING MACH into their approved canonical formats.
 
-Solution: For Details refer to [Assignment_2.R]
+Solution: For Details refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L11-L18)
 
 Task 3 — Data Imputation via Contextual Inference
 You are expressly prohibited from deleting rows containing missing data. Instead, you shall employ mutate() combined with ifelse() to perform contextual imputation based upon the following established factory operational rules:
