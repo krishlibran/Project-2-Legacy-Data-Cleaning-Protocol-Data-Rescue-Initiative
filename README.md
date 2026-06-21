@@ -3,7 +3,7 @@ Load the dataset into the R environment. Execute the unique() function against b
 Examine the console output with particular attention to quotation mark boundaries, as this will reveal the presence of invisible 
 trailing whitespace characters that constitute the primary string integrity issue.
 
-Solution: For Details refer to
+Solution: For Details refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L1-L9)
 
 Task 2 — String Standardisation & Normalisation
 Utilising the mutate() function in conjunction with the stringr package, perform the following standardisation operations:
@@ -16,7 +16,7 @@ Utilising the mutate() function in conjunction with the stringr package, perform
 
 • Standardise non-uniform machine name variants such as CNC-LATHE and MILLING MACH into their approved canonical formats.
 
-Solution: For Details refer to
+Solution: For Details refer to [Assignment_2.R]
 
 Task 3 — Data Imputation via Contextual Inference
 You are expressly prohibited from deleting rows containing missing data. Instead, you shall employ mutate() combined with ifelse() to perform contextual imputation based upon the following established factory operational rules:
@@ -32,7 +32,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | VIKRAM | Night | NA | Vikram | Night | DRILL_PRESS |
 | Rahul | NA | CNC_Lathe | Rahul | Night | CNC_LATHE |
 | Rahul | NA | Drill_Press | Rahul | Night | DRILL_PRESS |
-For Details refer to 
+For Details refer to [Assignment_2.R]
 
 Task 4 — Rectification of Logically Impossible Values
 Identify all records wherein the Downtime_Minutes value is less than zero. Such values are logically impossible and cannot be deduced from available contextual information. Replace these specific erroneous values with NA to accurately represent their unknown status.
@@ -45,7 +45,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | 56 | -7 | NA |
 | 105 | 0 | 0 |
 | 130 | 3 | 3 |
-For details, refer to 
+For details, refer to [Assignment_2.R]
 
 Task 5 — Date Format Standardisation
 Load the lubridate package and apply the parse_date_time() function to coerce the Log_Date column into a single standardised format. The function must be configured to recognise and process all three date formats present in the raw data: YYYY-MM-DD, DD/MM/YYYY, and DD.MM.YYYY.
@@ -57,7 +57,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | 7 | 08.06.2026 | 2026-06-08 |
 | 8 | 2026-06-11 | 2026-06-11 |
 | 9 | 15/06/2026 | 2026-06-15 |
-For details, refer to
+For details, refer to [Assignment_2.R]
 
 Task 6 — Feature Engineering: Downtime Severity Classification
 Create a new derived column designated Downtime_Severity by applying the case_when() function in accordance with the following classification schema:
@@ -77,9 +77,9 @@ Solution:
 | STAMPING_PRESS | 62 | Critical |
 | MILLING_MACHINE | 39 | Warning |
 
-For details, refer to
+For details, refer to [Assignment_2.R]
 
 Task 7 — Export of Cleaned Dataset
 Upon successful completion of all preceding tasks, export the fully cleaned and processed data frame to a CSV file designated jv_clean_logs.csv. Ensure that the exported file faithfully reflects all transformations applied during Tasks 1 through 6.
 
-Solution: We have exported our clean data into a new csv file. For details refer to 
+Solution: We have exported our clean data into a new csv file. For details refer to [Assignment_2.R]
