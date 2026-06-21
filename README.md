@@ -80,7 +80,7 @@ Solution:
 | STAMPING_PRESS | 62 | Critical |
 | MILLING_MACHINE | 39 | Warning |
 
-For details, refer to [Assignment_2.R]
+For details, refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L27-L30)
 
 Task 7 — Export of Cleaned Dataset
 Upon successful completion of all preceding tasks, export the fully cleaned and processed data frame to a CSV file designated jv_clean_logs.csv. Ensure that the exported file faithfully reflects all transformations applied during Tasks 1 through 6.
