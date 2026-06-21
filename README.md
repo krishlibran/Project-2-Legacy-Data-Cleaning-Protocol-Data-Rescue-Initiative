@@ -32,7 +32,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | VIKRAM | Night | NA | Vikram | Night | DRILL_PRESS |
 | Rahul | NA | CNC_Lathe | Rahul | Night | CNC_LATHE |
 | Rahul | NA | Drill_Press | Rahul | Night | DRILL_PRESS |
-For Details refer to [Assignment_2.R]
+For Details refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L22-L24)
 
 Task 4 — Rectification of Logically Impossible Values
 Identify all records wherein the Downtime_Minutes value is less than zero. Such values are logically impossible and cannot be deduced from available contextual information. Replace these specific erroneous values with NA to accurately represent their unknown status.
