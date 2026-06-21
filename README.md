@@ -45,7 +45,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | 56 | -7 | NA |
 | 105 | 0 | 0 |
 | 130 | 3 | 3 |
-For details, refer to [Assignment_2.R]
+For details, refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L25)
 
 Task 5 — Date Format Standardisation
 Load the lubridate package and apply the parse_date_time() function to coerce the Log_Date column into a single standardised format. The function must be configured to recognise and process all three date formats present in the raw data: YYYY-MM-DD, DD/MM/YYYY, and DD.MM.YYYY.
