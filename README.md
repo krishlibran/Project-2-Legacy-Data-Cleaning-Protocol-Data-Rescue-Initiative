@@ -32,6 +32,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | VIKRAM | Night | NA | Vikram | Night | DRILL_PRESS |
 | Rahul | NA | CNC_Lathe | Rahul | Night | CNC_LATHE |
 | Rahul | NA | Drill_Press | Rahul | Night | DRILL_PRESS |
+
 For Details refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L22-L24)
 
 Task 4 — Rectification of Logically Impossible Values
@@ -45,6 +46,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | 56 | -7 | NA |
 | 105 | 0 | 0 |
 | 130 | 3 | 3 |
+
 For details, refer to [Assignment_2.R](https://github.com/krishlibran/Project-2-Legacy-Data-Cleaning-Protocol-Data-Rescue-Initiative/blob/main/Assignment_2.R#L25)
 
 Task 5 — Date Format Standardisation
@@ -57,6 +59,7 @@ Solution: Below is the table showning the Log_Date columns from Raw_Data and Cle
 | 7 | 08.06.2026 | 2026-06-08 |
 | 8 | 2026-06-11 | 2026-06-11 |
 | 9 | 15/06/2026 | 2026-06-15 |
+
 For details, refer to [Assignment_2.R]
 
 Task 6 — Feature Engineering: Downtime Severity Classification
